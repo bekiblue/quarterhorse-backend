@@ -21,7 +21,7 @@ class Config(BaseConfig):
     LOGLEVEL: str = Field(env='LOGLEVEL', default='INFO')
 
     ACCESS_TOKEN_EXPIRE: int = Field(env='ACCESS_TOKEN_EXPIRE', default=3600)
-    RESET_TOKEN_EXPIRE: int = Field(env='ACCESS_TOKEN_EXPIRE', default=60*60*24*3)  # 3 days
+    RESET_TOKEN_EXPIRE: int = Field(env='RESET_TOKEN_EXPIRE', default=60*60*24*3)  # 3 days
 
     MIME_TYPE: str = 'application/json'
 
