@@ -73,7 +73,8 @@ jobs:
           
           echo "Running SonarQube Analysis..."
           sonar-scanner \
-            -Dsonar.projectKey=quarterhorse-backend \
+            -Dsonar.projectKey=bekiblue_quarterhorse-backend \
+            -Dsonar.organization=bekiblue \
             -Dsonar.sources=common/models,common/repositories,common/services,common/utils,flask/app/helpers \
             -Dsonar.tests=tests \
             -Dsonar.exclusions=tests/**,**/test_*.py,**/*_test.py,**/conftest.py,venv/**,.venv/**,.coverage,coverage.xml \
