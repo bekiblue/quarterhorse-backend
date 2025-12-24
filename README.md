@@ -1,6 +1,6 @@
 # Quarterhorse Backend
 
-Flask REST API backend with authentication (JWT, OAuth), user profiles, organizations, and task management.
+A Flask REST API backend with authentication (JWT, OAuth), user profiles, organizations, and task management.
 
 ## How to Run
 
